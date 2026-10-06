@@ -1,0 +1,16 @@
+[Unit]
+Description=Procreator artwork and time-lapse gallery
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=@PROJECT_DIR@
+Environment=NODE_ENV=production
+ExecStart=@NODE@ @SERVER@ start
+Restart=on-failure
+RestartSec=10
+TimeoutStopSec=30
+KillMode=control-group
+
+[Install]
+WantedBy=default.target

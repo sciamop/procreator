@@ -1,0 +1,2 @@
+# Base worker dependency only; install engine-specific dependencies separately.
+Pillow>=10.4,<13
