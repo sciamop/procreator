@@ -1,4 +1,4 @@
-# Procreator
+<h1 align="center"><img src="docs/procreator.png" alt="Procreator" width="600"></h1>
 
 A self-hosted gallery for Procreate artwork, layers, and time-lapse recordings. Built with Next.js, React, TypeScript, and Tailwind CSS, with a compact typographic layout and automatic loading in batches of 100.
 
